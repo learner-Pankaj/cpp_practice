@@ -25,5 +25,6 @@ int main(){
         cout << n[i].data << ", ";
     }
     cout << endl;
+    delete [] n;
     return 0;
 }
